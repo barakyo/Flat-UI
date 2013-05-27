@@ -6,7 +6,7 @@
   position: relative;
 
   ul {
-    background: @pagination-color;
+    background: @base;
     color: @inverse;
     vertical-align: top;
     .border-radius(6px);
@@ -21,7 +21,7 @@
       &.active {
         > a, > span {
           background-color: @firm;
-          color: @inverse;
+          color: @base;
         }
         &.previous,
         &.next {
@@ -92,7 +92,7 @@
           background-color: @inverse;
           border-color: @inverse;
           border-width: 2px !important;
-          color: @pagination-color;
+          color: @base;
           margin: 10px 5px 9px;
 
           &:hover, &:focus {
@@ -115,7 +115,7 @@
       > a, > span {
         background: @inverse;
         border: 5px solid @pagination-color;
-        color: @inverse;
+        color: @base;
         line-height: 16px;
         min-height: 17px;
         min-width: auto;
